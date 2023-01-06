@@ -1,4 +1,4 @@
-import styles from "../styles/styles.module.scss";
+import styles from '../styles/styles.module.scss';
 
 export default function FormCard({ children, currentStep, prevFormStep }) {
   return (
@@ -9,8 +9,7 @@ export default function FormCard({ children, currentStep, prevFormStep }) {
             <button
               className={styles.back}
               onClick={prevFormStep}
-              type="button"
-            >
+              type='button'>
               back
             </button>
           )}
